@@ -23,7 +23,7 @@ def sell (stock, amount)
 end
 
 # iteration loop
-for day in 0..1
+for day in 0..adidas.length
     
     # decide what to buy based on day-to-day growth rate
     growth = []
